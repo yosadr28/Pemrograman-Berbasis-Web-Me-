@@ -1,0 +1,123 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 70px 0 0 0;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    background-color: bisque;
+    height          : 90px;
+    color           : darkgreen;
+}
+
+.header-logo {
+    font-size  : 36px;
+    float      : left;
+    padding    : 20px 40px;
+    font-weight: 700;
+}
+
+.header-list li {
+    float  : left;
+    padding: 33px 20px;
+}
+
+.main {
+    padding: 100px 80px;
+}
+
+.copy-container h1 {
+    font-size: 140px;
+}
+
+.copy-container h2 {
+    font-size  : 60px;
+    font-weight: 300;
+}
+
+.copy-container span {
+    color: rgb(25, 0, 167);
+}
+
+.h-line {
+    background-color: #889eab;
+    height          : 10px;
+    width           : 180px;
+}
+
+.contents {
+    height    : 500px;
+    margin-top: 100px;
+}
+
+.section-title {
+    border-bottom : 2px solid springgreen;
+    font-size     : 28px;
+    padding-bottom: 15px;
+    margin-bottom : 50px;
+}
+
+.contents-item {
+    float       : left;
+    margin-right: 40px;
+}
+
+.contents-item img {
+    width: 380px;
+}
+
+
+.contents-item p {
+    font-size  : 24px;
+    margin-top : 30px;
+    font-weight: 300;
+    align-items: center;
+}
+
+
+.contact-form {
+    padding-top: 100px;
+}
+
+.contact-submit {
+    background-color: #dde7ec;
+    color           : #889eab;
+}
+
+.footer {
+    background-color: bisque;
+    height          : 120px;
+    color           : darkgreen;
+    padding         : 40px;
+}
+
+input,
+textarea {
+    width        : 400px;
+    margin-top   : 10px;
+    margin-bottom: 30px;
+    padding      : 20px;
+    font-size    : 18px;
+    border       : 1px solid #dde7ec;
+}
+
+.footer-logo {
+    font-size  : 48px;
+    float      : left;
+    font-weight: 700;
+}
+
+.footer-list {
+    float: right;
+}
+
+.footer-list li {
+    padding-bottom: 20px;
+}
