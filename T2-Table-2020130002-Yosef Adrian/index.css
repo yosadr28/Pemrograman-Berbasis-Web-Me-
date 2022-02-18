@@ -1,0 +1,11 @@
+.header{
+    float: left;
+    text-overflow: clip;
+    text-decoration: none;
+    background-color: rgb(51, 51, 51);
+    width: 30%;
+}
+
+.header-nav{
+    text-transform: capitalize;
+}

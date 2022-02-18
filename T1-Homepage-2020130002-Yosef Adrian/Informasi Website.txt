@@ -1,0 +1,3 @@
+Websitenya idealnya saat view 80%
+Beberapa CSS belum dirapihkan untuk membuat website yg responsif
+Beberapa ilmu didapatkan dari w3school (terutama Button Back To Top)
