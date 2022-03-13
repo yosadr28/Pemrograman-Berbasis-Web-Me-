@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<body onload="checkCookier()">
+    <h2>
+        JavaScript HTML Events
+    </h2>
+    <p id="demo">
+
+    </p>
+    <script>
+        function checkCookier(){
+            if(navigator.cookieEnabled==true){
+                text = "Cookies are enabled.";
+            } else {
+                text = "Cookies are not enabled.";
+            }
+            document.getElementById("demo").innerHTML = text;
+        }
+    </script>
+</body>
+
+</html>
