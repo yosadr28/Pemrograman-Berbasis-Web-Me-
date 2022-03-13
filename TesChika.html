@@ -1,0 +1,39 @@
+<HTML>
+
+<HEAD>
+    <TITLE> SUHU_2020130024 </TITLE>
+</HEAD>
+
+<BODY>
+
+    <p id="hasil">
+        Kosong
+    </p>
+    <SCRIPT LANGUAGE="JAVASCRIPT">
+
+        do {
+            let text; let lanjut = false; let switchx = true;
+            let i = 0;
+            let f = prompt("Suhu dalam Fahrnheit :");
+            function convertSuhu() {
+                let c = 5 / 9 * (f - 32);
+                return c;
+            }
+
+            if (f != null || f == "") {
+                text = "Suhu dalam Fahrnheit = " + f + " " + "\nSuhu dalam Celcius   = " + convertSuhu();
+                switchx = true;
+            } else {
+                text = "User Menggagalkan Proses";
+                switchx = false;
+            }
+            document.getElementById("hasil").innerHTML = text;
+            Tombol = alert(text);
+        } while (confirm("Ngulang?") == true);
+
+
+    </SCRIPT>
+
+</BODY>
+
+</HTML>

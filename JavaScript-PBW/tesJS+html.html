@@ -1,0 +1,20 @@
+<html>
+
+<head>
+    
+</head>
+<body>
+    <div id="main">
+        <p>Finding HTML</p>
+        <p>This is an Example
+        </p>
+    </div>
+
+    <p id="demo"></p>
+    <script>
+        const x = document.querySelectorAll("p.intro");
+        document.getElementById("demo").innerHTML = 'The first paragraph(index B) with class = "intro" is : ' + x[0].innerHTML;
+    </script>
+</body>
+
+</html>
