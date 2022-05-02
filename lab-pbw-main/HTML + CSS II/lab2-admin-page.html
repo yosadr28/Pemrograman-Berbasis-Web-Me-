@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>BT - Admin</title>
+  <link rel="stylesheet" href="lab2-stylesheet.css">
+</head>
+
+<body>
+  <header>
+    <div class="header-logo">BT</div>
+    <div class="header-list">
+      <ul>
+        <li>Users</li>
+        <li>Reports</li>
+        <li>Transactions</li>
+      </ul>
+    </div>
+    <div class="header-profile">
+      Administrator
+    </div>
+  </header>
+
+  <main>
+    <h2>Hi, Administrator!</h2>
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <div class="wrapper">
+            <div class="big-font text-warning pr">54%</div>
+            <div class="progress-bar">
+              <div class="progress-warning" style="width: 54%"></div>
+            </div>
+          </div>
+          <div class="text-muted">Income Target</div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="wrapper">
+            <div class="big-font text-success pr">87%</div>
+            <div class="progress-bar">
+              <div class="progress-success" style="width: 87%"></div>
+            </div>
+          </div>
+          <div class="text-muted">Expenses Target</div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="wrapper">
+            <div class="big-font text-danger pr">23%</div>
+            <div class="progress-bar">
+              <div class="progress-danger" style="width: 23%"></div>
+            </div>
+          </div>
+          <div class="text-muted">Spendings Target</div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="wrapper">
+            <div class="big-font text-success pr">76%</div>
+            <div class="progress-bar">
+              <div class="progress-success" style="width: 76%"></div>
+            </div>
+          </div>
+          <div class="text-muted">Cummulative Target</div>
+        </div>
+      </div>
+    </div>
+
+    <h2>Latest Events</h2>
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Event Name</th>
+            <th>Recorded At</th>
+            <th>Type</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>User 'amir' logged in.</td>
+            <td>17-Jan-2022 12:00:00</td>
+            <td>Login</td>
+            <td><a href="#">Details</a></td>
+          </tr>
+          <tr style="background-color: #db4437; color: white;">
+            <th scope="row">2</th>
+            <td>Incident number '831' occured!</td>
+            <td>17-Jan-2022 12:10:32</td>
+            <td>Incident</td>
+            <td><a href="#">Details</a></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Incident number '831' has been resolved!</td>
+            <td>17-Jan-2022 12:15:12</td>
+            <td>Incident</td>
+            <td><a href="#">Details</a></td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>User 'amir' logged out.</td>
+            <td>17-Jan-2022 14:43:24</td>
+            <td>Logout</td>
+            <td><a href="#">Details</a></td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>User 'mira' logged in.</td>
+            <td>17-Jan-2022 16:21:09</td>
+            <td>Login</td>
+            <td><a href="#">Details</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>Incident Form</h2>
+    <div class="card">
+      <form>
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="Incident subject..">
+
+        <label for="type">Type</label>
+        <select id="type" name="type">
+          <option value="disruption">Disruption</option>
+          <option value="partial failure">Partial Failure</option>
+          <option value="total failure">Total Failure</option>
+        </select>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Incident message.."></textarea>
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <center>Developed by me &copy; 2022</center>
+  </footer>
+</body>
+
+</html>

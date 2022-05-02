@@ -1,0 +1,13 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li {
+  color: dimgray;
+}
+
+.selected {
+  color      : red;
+  font-style : oblique;
+  font-weight: 900;
+}

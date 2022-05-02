@@ -1,0 +1,11 @@
+h1 {
+  color      : #ff0000;
+  font-size  : 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+  color      : #0000ff;
+  font-size  : 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

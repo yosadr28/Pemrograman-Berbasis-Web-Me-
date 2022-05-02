@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Form</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .form-group {
+      margin-top: 18px;
+      margin-bottom: 18px;
+    }
+  </style>
+</head>
+
+<body>
+  <form>
+    <fieldset>
+      <legend>Personal Data</legend>
+      <div>
+        <label for="nama">Nama</label><br>
+        <input type="text" id="nama"><br>
+      </div>
+      <div>
+        <label for="psw">Password</label><br>
+        <input type="password" id="psw"><br>
+      </div>
+
+      <div>
+        <label>Gender</label><br>
+        <input type="radio" id="laki" name="gender">
+        <label for="laki">Laki-Laki</label><br>
+        <input type="radio" id="perempuan" name="gender">
+        <label for="perempuan">Perempuan</label><br>
+      </div>
+    </fieldset>
+
+    <fieldset style="width: 10%;">
+      <legend>Skill</legend>
+      <input type="checkbox" id="skill1" name="HTML" value="HTML">
+      <label for="skill1"> HTML</label><br>
+      <input type="checkbox" id="skill2" name="CSS" value="CSS">
+      <label for="skill2"> CSS</label><br>
+      <input type="checkbox" id="skill3" name="JS" value="JS">
+      <label for="skill3"> JS</label><br>
+    </fieldset>
+
+    <div class="form-group">
+      <label for="pendidikan">Pendidikan Terakhir</label>
+      <select id="pendidikan" name="pendidikan">
+        <option value="SMA">SMA</option>
+        <option value="D3">D3</option>
+        <option value="S1">S1</option>
+        <option value="S2">S2</option>
+        <option value="S3">S3</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <textarea name="message" rows="5" cols="30">Isi pesan saya.</textarea>
+    </div>
+
+    <div class="form-group">
+      <label for="favcolor">Warna</label>
+      <input type="color" id="favcolor" name="favcolor">
+    </div>
+
+    <div class="form-group">
+      <label for="date">Pilih tanggal</label>
+      <input type="date" id="date" name="date">
+    </div>
+
+    <button type="button" onclick="alert('Testing!')">Click Me!</button>
+
+    <input type="submit" value="Simpan">
+    <input type="reset" value="Reset">
+  </form>
+
+</body>
+
+</html>

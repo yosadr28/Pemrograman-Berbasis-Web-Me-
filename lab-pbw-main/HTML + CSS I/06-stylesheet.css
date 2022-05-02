@@ -1,0 +1,14 @@
+h1 {
+  color      : #e6855e;
+  font-size  : 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  background-color: #f3f372;
+  height          : 80px;
+  width           : 200px;
+}
+
+img {
+  height: 192px;
+  width : 342px;
+}
